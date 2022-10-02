@@ -1,0 +1,15 @@
+#mainHeading {
+    background-color: plum;
+}
+
+.capitals {
+    text-transform: uppercase;
+}
+
+.listStyle {
+    background-color: cornflowerblue;
+    width: fit-content;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
