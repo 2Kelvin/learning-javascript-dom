@@ -24,7 +24,7 @@ li.setAttribute("class", "listStyle"); //set this class from the linked CSS styl
 // this is how you remove an attribute from an element thro Javascript
 // li.removeAttribute("class");
 
-// this removes the element itself from the DOM
+// REMOVING ELEMENTS --> removing the element from the DOM
 // li.remove();
 
 // ACCESSING ATTRIBUTES THROUGH JAVASCRIPT
@@ -35,3 +35,10 @@ console.log(mainHeading.getAttribute("id"));
 console.log(mainHeading.getAttributeNames());
 
 // CSS CLASSES
+li.classList.add("newItems");
+li.classList.add("listItem");
+
+// to remove the class
+li.classList.remove("listItem");
+
+console.log(li.classList.contains("listItem"));

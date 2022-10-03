@@ -13,3 +13,15 @@
     padding: 2px 5px;
     border-radius: 10px;
 }
+
+.listItem {
+    background-color: lightgreen;
+    width: fit-content;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+.newItems {
+    color: lightblue;
+}
